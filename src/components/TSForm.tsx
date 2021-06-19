@@ -51,9 +51,11 @@ const TSForm = () => {
       </form>
       <table>
         <thead>
-          <td>nombre</td>
-          <td>email</td>
-          <td>password</td>
+          <tr>
+            <th>nombre</th>
+            <th>email</th>
+            <th>password</th>
+          </tr>
         </thead>
         <tbody>
           {db.map((v) => {
